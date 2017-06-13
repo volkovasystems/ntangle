@@ -1,0 +1,58 @@
+{
+  "name": "ntangle",
+  "version": "0.0.0",
+  "description": "Merge instance with catcher based flow.",
+  "main": "ntangle.js",
+  "support": "ntangle.support.js",
+  "deploy": "ntangle.deploy.js",
+  "browser": "ntangle.deploy.js",
+  "scripts": {
+    "build": "gulp && webpack --progress --display-modules",
+    "test": "mocha ntangle-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/ntangle.git"
+  },
+  "keywords": [
+    "merge",
+    "instance",
+    "catcher",
+    "flow",
+    "ntangle"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/ntangle/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/ntangle#readme",
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "falzy": "^0.20.0",
+    "inface": "^0.6.0",
+    "letgo": "^0.51.0",
+    "mrkd": "^0.6.0",
+    "passd": "^0.4.0",
+    "protype": "^0.22.0",
+    "shft": "^0.2.0",
+    "snapd": "^0.26.0",
+    "truly": "^0.19.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-debug": "^3.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sourcemaps": "^2.6.0",
+    "source-map-loader": "^0.2.1",
+    "webpack": "^2.6.1"
+  }
+}
